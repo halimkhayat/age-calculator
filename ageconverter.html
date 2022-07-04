@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Age converter</title>
+      <link rel="stylesheet" href="ageconverter.css">
+    </head>
+    <body>
+      <div class="main-container">
+        <h1>Age Converter: Change from years to days</h1>
+        <div id="container-1" class="type-container">
+          <input id="birthDate" type="text" placeholder="Type your birth year" onclick="birthYear()">
+        </div>
+        <div class="btn-container">
+          <button id="pressMe" class="click-me" onclick="generateAge()">Click Me</button>
+          <button id="resetMe" class="reset-me" onclick="resertAge()">Reset</button>
+        </div>
+        <div id="ageInDays" class="new-age">
+        </div>
+      </div>
+      <script src="ageconverter.js"></script>
+    </body>
+</html>
